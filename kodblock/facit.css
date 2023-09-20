@@ -1,0 +1,44 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-block {
+  background-color: #282c34;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  width: 50%;
+}
+
+/* Syntax highlighting */
+.code-block code {
+  color: #abb2bf;
+}
+
+.code-block code .selector {
+  color: #e06c75;
+}
+
+.code-block code .property {
+  color: #56b6c2;
+}
+
+.code-block code .value {
+  color: #98c379;
+}
+
+.code-block code .comment {
+  color: #5c6370;
+  font-style: italic;
+}
+
+.code-block code .braces {
+  color: #d19a66;
+}
